@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'TPPush-Swift_Example' do
+  pod 'TPPush-Swift', :path => '../'
+
+  target 'TPPush-Swift_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
