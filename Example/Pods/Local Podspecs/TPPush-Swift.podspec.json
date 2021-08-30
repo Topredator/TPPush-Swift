@@ -1,0 +1,61 @@
+{
+  "name": "TPPush-Swift",
+  "version": "1.0.0",
+  "summary": "iOS 远程推送库 操作封装 Swift版",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Topredator/TPPush-Swift",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Topredator": "luyanggold@163.com"
+  },
+  "source": {
+    "git": "https://github.com/Topredator/TPPush-Swift.git",
+    "tag": "1.0.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "TPPush-Swift/Classes/**/*",
+  "dependencies": {
+    "TPFoundation-Swift": [
+
+    ]
+  },
+  "subspecs": [
+    {
+      "name": "Base",
+      "source_files": "TPPush-Swift/Classes/Base/**/*"
+    },
+    {
+      "name": "GT",
+      "source_files": "TPPush-Swift/Classes/GT/**/*",
+      "dependencies": {
+        "TPPush-Swift/Base": [
+
+        ]
+      },
+      "vendored_frameworks": "TPPush-Swift/Classes/ThirdParty/GTSDK.framework",
+      "libraries": [
+        "resolv",
+        "z",
+        "c++",
+        "sqlite3"
+      ],
+      "frameworks": [
+        "PushKit",
+        "AdSupport",
+        "Security",
+        "SystemConfiguration",
+        "UserNotifications"
+      ],
+      "pod_target_xcconfig": {
+        "HEADER_SEARCH_PATHS": "$(PODS_ROOT)/TPPush-Swift/ThirdParty/*.framework/Headers",
+        "LD_RUNPATH_SEARCH_PATHS": "$(PODS_ROOT)/TPPush-Swift/ThirdParty/",
+        "OTHER_LDFLAGS": "-ObjC"
+      }
+    }
+  ]
+}

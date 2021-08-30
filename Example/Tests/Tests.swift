@@ -1,5 +1,5 @@
 import XCTest
-import TPPush-Swift
+import TPPush_Swift
 
 class Tests: XCTestCase {
     

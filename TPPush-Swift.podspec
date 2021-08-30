@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TPPush-Swift'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of TPPush-Swift.'
+  s.version          = '1.0.0'
+  s.summary          = 'iOS 远程推送库 操作封装 Swift版'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,22 +21,31 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/周晓路/TPPush-Swift'
+  s.homepage         = 'https://github.com/Topredator/TPPush-Swift'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '周晓路' => 'luyanggold@163.com' }
-  s.source           = { :git => 'https://github.com/周晓路/TPPush-Swift.git', :tag => s.version.to_s }
+  s.author           = { 'Topredator' => 'luyanggold@163.com' }
+  s.source           = { :git => 'https://github.com/Topredator/TPPush-Swift.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '10.0'
 
   s.source_files = 'TPPush-Swift/Classes/**/*'
+  s.subspec 'Base' do |ss|
+      ss.source_files = 'TPPush-Swift/Classes/Base/**/*'
+  end
+  s.subspec 'GT' do |ss|
+      ss.source_files = 'TPPush-Swift/Classes/GT/**/*'
+      ss.dependency 'TPPush-Swift/Base'
+      ss.vendored_frameworks = 'TPPush-Swift/Classes/ThirdParty/GTSDK.framework'
+      ss.libraries = 'resolv', 'z', 'c++', 'sqlite3'
+      ss.frameworks = 'PushKit', 'AdSupport', 'Security', 'SystemConfiguration', 'UserNotifications'
+      ss.pod_target_xcconfig = {
+          'HEADER_SEARCH_PATHS' => '$(PODS_ROOT)/TPPush-Swift/ThirdParty/*.framework/Headers',
+          'LD_RUNPATH_SEARCH_PATHS' => '$(PODS_ROOT)/TPPush-Swift/ThirdParty/',
+          'OTHER_LDFLAGS' => '-ObjC'
+      }
+  end
   
-  # s.resource_bundles = {
-  #   'TPPush-Swift' => ['TPPush-Swift/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'TPFoundation-Swift'
 end

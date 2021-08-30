@@ -1,0 +1,6 @@
+framework module TPPush_Swift {
+  umbrella header "TPPush-Swift-umbrella.h"
+
+  export *
+  module * { export * }
+}

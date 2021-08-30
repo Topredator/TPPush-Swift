@@ -1,0 +1,30 @@
+PODS:
+  - TPFoundation-Swift (1.0.0)
+  - TPPush-Swift (1.0.0):
+    - TPFoundation-Swift
+    - TPPush-Swift/Base (= 1.0.0)
+    - TPPush-Swift/GT (= 1.0.0)
+  - TPPush-Swift/Base (1.0.0):
+    - TPFoundation-Swift
+  - TPPush-Swift/GT (1.0.0):
+    - TPFoundation-Swift
+    - TPPush-Swift/Base
+
+DEPENDENCIES:
+  - TPPush-Swift (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - TPFoundation-Swift
+
+EXTERNAL SOURCES:
+  TPPush-Swift:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TPFoundation-Swift: b1be14c16eff9220f9066b410fdbdec5c1a4a6a1
+  TPPush-Swift: 8aa682066f93fbd530f6ce84762d59c190a304d3
+
+PODFILE CHECKSUM: 16b7f6c11f5e12d755b59c46ac7f169471615daa
+
+COCOAPODS: 1.10.1
