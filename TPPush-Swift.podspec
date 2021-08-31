@@ -36,8 +36,10 @@ TODO: Add long description of the pod here.
       'SWIFT_INCLUDE_PATHS' => [
             '$(PODS_ROOT)/TPPush-Swift/Module',
             '$(PODS_TARGET_SRCROOT)/TPPush-Swift/Module'
-      ]
+      ],
+      'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
   }
+  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   s.preserve_paths = [
         'TPPush-Swift/Module/module.modulemap',
         'TPPush-Swift/Module/BridgeHeader.h'
