@@ -8,55 +8,56 @@
 
 /* Begin PBXBuildFile section */
 		003DF608AB744DAE0CDEA2B7EF7A1F54 /* Pods-TPPush-Swift_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C9D9FDC46C19509180AF60EFA23F74 /* Pods-TPPush-Swift_Example-dummy.m */; };
-		07CA4EF3F42AFEFC6D2674C9B90609DC /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0879817BF16F2750D7E7F98DC72DAAF2 /* Manager.swift */; };
-		07DD69C406E432196DE3048128E28F42 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55F6A8778AE5C7955998D02C5EEC0218 /* UserNotifications.framework */; };
 		092D36F6854FD141A40FCC1D0B5AA5C8 /* CollectionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E74979AF30F867EB320145D13FB097 /* CollectionItem.swift */; };
 		0C56F2EB5D84A6882575145AB761C0FC /* MultipleProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = D3F859B25A4DF2E9304B9D15DAF41A11 /* MultipleProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0ED7CE59DCAB212FCD8A7CA7F5E10A2F /* CollectionContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFAC297106EAE9913F68BE13C07A155F /* CollectionContext.swift */; };
 		0F480644FF84122BEBEDCCB06F2E55E2 /* Image+TP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B286C34F511EAB70C5C397FAE3C14AB /* Image+TP.swift */; };
 		0FE0E84EF346DD39672AAF1061F6853D /* SafeArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5C72F78D05D16E74E3D9ABCC19160D /* SafeArray.swift */; };
+		11ADE601B56076502E4B1CA592AF10CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84DF67F0DFEE5D0B011F4482A961484B /* Foundation.framework */; };
 		12EF3EBA6FFB779E1A62E2D333BB374E /* Pods-TPPush-Swift_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C38224B5DCA51B1BC27DB798A03B43 /* Pods-TPPush-Swift_Tests-dummy.m */; };
+		176B50A881F29D95AFED73B10386DFCD /* TPPush_Swift.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F1AE3228E7B96E844E4BC9DC782D07F /* TPPush_Swift.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		21E11308BA6CCA77116B61DA828175E8 /* TableSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B53EA3FD979F3192DEE9E12DCA8509B /* TableSection.swift */; };
 		22E0DFC335B4E6C539B6FBCEC396D031 /* Application+TP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70491104099AD54A29491637156B8952 /* Application+TP.swift */; };
+		282F609A9B8BF03A0F3E4EE444E0B8E4 /* GTSDK in Sources */ = {isa = PBXBuildFile; fileRef = 57B2B4CD031DC05D3964B201D2AA66FF /* GTSDK */; };
+		2947C2C01BB97007D0CFD120F606B868 /* TPPush-Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5959C6E4CB24E8EAABAC392502B15810 /* TPPush-Swift-dummy.m */; };
 		298ACD08255F648F43682DEFB7C45788 /* CellRegister.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C3FC75C116D906E8B4BD55169A3D9D /* CellRegister.swift */; };
-		2BCED7E2653DF8CCFC1EEB6E63CFB947 /* TPPush-Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F4C2559206BA57508B6A9183AB89601E /* TPPush-Swift-dummy.m */; };
 		2BEF0257582D4E798B68D6B32D5A2B8F /* MethodSwizzling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DB2C18B4BB6A14D1DED559D68962DF /* MethodSwizzling.swift */; };
+		304B6B556EB76A81EB813E2709F42B56 /* Pusher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152596FB1EBABC5788F41DAEF1A4BB01 /* Pusher.swift */; };
+		30E92049249B724A7967295B3F4D16E5 /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F435B8BDFC1AAB431195A8A4EEFD3BEA /* Manager.swift */; };
+		33AB4747F1AAE93F8616E0E2D2A56AF4 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9CAEB4047208B1BAF69763181E9CE9F /* SystemConfiguration.framework */; };
 		36201EDD000A8FD6E4AA91361AA7F261 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815934ED202F139D3261720588B95F21 /* Queue.swift */; };
 		378898C7DAD020D381611C38AD186733 /* Data+TP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0300028D11D7C3E8A49D9BB4C16CD347 /* Data+TP.swift */; };
 		3A80EB0924E0D77C118AC8FC52743389 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84DF67F0DFEE5D0B011F4482A961484B /* Foundation.framework */; };
-		45BF532E6904B29601217E2B5D318FF3 /* TPPush-Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FB4C30237548D89C0B79A29CDB11F02 /* TPPush-Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		48F800FFBED4B2202709D88A77AF5D80 /* Define.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBDE93BE5CAF913404125D5EE7BE40F /* Define.swift */; };
+		426E393FBF8311AFD11F94FACA5D3E6A /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAE7C0642883DC7A41AE3014019687B8 /* AdSupport.framework */; };
 		4D655C638B0AC18C967160ACFBC51AAB /* NameSpace.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC980005D51C85FAA697212D45593181 /* NameSpace.swift */; };
 		513828A3D07230FEEC6E3B3E3E4DE30B /* ScrollView+TP.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBACDF621874F851A1585C19EBF32B98 /* ScrollView+TP.swift */; };
-		53880DE480119997B19A8E85567AE229 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAE7C0642883DC7A41AE3014019687B8 /* AdSupport.framework */; };
-		585F5C55BE0F955C9D268FF555574627 /* GTModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6F094D974D03B616C2417C936ADFBC /* GTModel.swift */; };
-		5B3B10F003211FF359F548DC15BE6D9C /* GeTuiSdk.h in Headers */ = {isa = PBXBuildFile; fileRef = A7B7D35112394527FB385F5523893F12 /* GeTuiSdk.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5BFE2C5E0CEB2A32EAAF28889BF671F9 /* TableRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C96ADED05F7DA5AD20888AA1D18C4C2 /* TableRow.swift */; };
 		5E1AB645BD9D9A973CD5B9E1C939AFDD /* Verify.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4A130DC01A390014C08BF60C950CCA /* Verify.swift */; };
-		611D3F117DFE722B752D5FA2C11DB770 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84DF67F0DFEE5D0B011F4482A961484B /* Foundation.framework */; };
-		617EEACFB75202DFF755AA7923FA2332 /* TPPush_Swift.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E2B0447379A20330EA92C46C38F9900 /* TPPush_Swift.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		690CBC82451B8115789BB7DC6B849C02 /* ScreenShot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197C316F9D4FAB3AF0A5826FD94494FD /* ScreenShot.swift */; };
 		6B2906C71898887FE4DA66B285729FA3 /* Date+TP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A057ADDC1A69949C96F54EC580C776E /* Date+TP.swift */; };
+		718BB17ADFF3EF6AB154743D0FF9E72C /* TPPush-Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D67F584E82DA46ECBFD96FD6D01CB967 /* TPPush-Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		74AFB2D62D2FA49C154E38936CA23CB4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84DF67F0DFEE5D0B011F4482A961484B /* Foundation.framework */; };
-		7F7CC0BD01F4B1313D011EA15389298A /* GTSDK in Sources */ = {isa = PBXBuildFile; fileRef = 59CFB59CEE2BDED75E4C16BE95CD56BF /* GTSDK */; };
 		81A3D37EA8EFE8C01FCF88830BFA79FC /* TPFoundation-Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6331D6D2F784EB6FCA92AFC0B9A09C /* TPFoundation-Swift-dummy.m */; };
+		838CB2FE5C691E55943A62AFC369D038 /* PushKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7773B195F556E3B350179CC34F647A8F /* PushKit.framework */; };
 		8557701E27C9D7CC74A901B2FB63F6E6 /* VIew+TP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761404A82A58B24235C6484BFDEC9D0C /* VIew+TP.swift */; };
+		865A078C429D70E383A815C3AFD3B0F1 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 051C36C0A2AF851928A10E5ACCC4BA4D /* Security.framework */; };
 		8812F6BC4F13B4A3B7B4CD781C961FF0 /* Pods-TPPush-Swift_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BDA26679634B24445DF0ADFB6C32356 /* Pods-TPPush-Swift_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		89F64320A79680DC5E2DA4F014432CBD /* Pusher.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5403026DF1B7D2D1E2240B7CF5E2D6C /* Pusher.swift */; };
 		8A5BD4A72DC0BFF3FD97902CBCE21EB8 /* Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353A8C57E4A8531C979BD95D957BB382 /* Codable.swift */; };
 		93826845361269DA688605655437AB2F /* QRCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4122409F680F65466F44FD4046720AC5 /* QRCode.swift */; };
-		95D0A71B69A715DB914D64D0C656EA3C /* TPFoundation_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CC16F668F448D1A510AEA98D23C1428 /* TPFoundation_Swift.framework */; };
-		9AB8FFB7A7AAC8A8552947371C3BAE99 /* PushKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7773B195F556E3B350179CC34F647A8F /* PushKit.framework */; };
+		9518B61A9723393AB2ACB290BE312D27 /* GeTuiSdk.h in Headers */ = {isa = PBXBuildFile; fileRef = 026C055E8DCCDA49A20046F35BABE16B /* GeTuiSdk.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A1A6B42E66326917CD35E3F889EDADA8 /* Font+TP.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA853ECB17CC5F4B22A5A3563BAFB05A /* Font+TP.swift */; };
 		B5E493964A1ED92FE81747F7C5E420B0 /* Device+TP.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32604A2108C75386FFE2EB1C233E3D1 /* Device+TP.swift */; };
 		B9257D91BDB1ED56EDBB8C738D85B04E /* Asyncs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8AC40FC3DF443E32D3445408B14655 /* Asyncs.swift */; };
-		BC23602734CDBA8269DE5F4853ADC5C5 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9CAEB4047208B1BAF69763181E9CE9F /* SystemConfiguration.framework */; };
 		C6B0DDF87A29B69BD3FA977FC6451E15 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECF3E43DD80800ACDB03C07B5590091 /* Stack.swift */; };
+		C82AD0BB1CF394A550E11B705A25B4BC /* Define.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F12B5CB6C618E10697FCEA21D1C8D0C /* Define.swift */; };
+		CA54C48707F78372D92604C5B0394ECC /* GTModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CCBFE9AC498F43DE79996B328CFE07 /* GTModel.swift */; };
+		CCF779B2DD80F2161BE4155C18915832 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55F6A8778AE5C7955998D02C5EEC0218 /* UserNotifications.framework */; };
 		D65BE150C2B336F4AA1EB6614531A890 /* Pods-TPPush-Swift_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BBBB6BB4856B56632BC251F6952942E /* Pods-TPPush-Swift_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D676FFB79C2F36722B43B6EA1E5D901A /* MultipleProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = F392D45D97291958E0FBB72D155C9AA8 /* MultipleProxy.m */; };
 		D9260B2D6EF284FFE435E0C829A3B361 /* TableAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C928DE8CF19B70CD4002FB1830D3E30 /* TableAdapter.swift */; };
 		E1AD51EE70B5101141E9026354431AD1 /* Color+TP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EF643A808314186EB835E8FA4D7C8B /* Color+TP.swift */; };
 		E45B090E7A57D30563F6526833F9C796 /* Then.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A7C52DDEA18BBE446606104C2B56E8 /* Then.swift */; };
+		E609FC84051194E669F17E0A662004FE /* TPFoundation_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CC16F668F448D1A510AEA98D23C1428 /* TPFoundation_Swift.framework */; };
 		E648ED5178FA34794D78C26392E35BCC /* ViewController+TP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F7C23DD04A9DF7FC6C9819F147D336 /* ViewController+TP.swift */; };
 		E6733CBFDDBC36BDABC930B4AD4BEA76 /* CollectionSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1DC8DB549B334CEEAC6CA39973971B /* CollectionSection.swift */; };
 		EB2DF9A6DFC37821A42D72A73F67733F /* String+TP.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BB8E1F7B9DAFB4E745FCAE03437908 /* String+TP.swift */; };
@@ -64,33 +65,32 @@
 		EEEF404DDC5B0FF694D690EAAC747413 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84DF67F0DFEE5D0B011F4482A961484B /* Foundation.framework */; };
 		F00BDA54F1679E540B2DACB57C40DD96 /* CollectionAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6760F741E3E66AD50C4D67C6A52B0C89 /* CollectionAdapter.swift */; };
 		F0F5681B192CE4D7E000265264DA930E /* TPFoundation-Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D124957BA4A244297F7B0DE665DF1988 /* TPFoundation-Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F5822E567B72D47DED250A8EFF5A3D0F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 051C36C0A2AF851928A10E5ACCC4BA4D /* Security.framework */; };
 		FFB81D67EB7FC7ADC20176B551C8AEAD /* CommonUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B872E1259D21BBD17F3614D48B4285 /* CommonUD.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1C54BF74311A6A826C7566F8EAC9AC34 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 13E6B3350E4CA970A24ABDBB71777C4A;
-			remoteInfo = "TPFoundation-Swift";
-		};
-		2AE8D0D21B306F0DA7C8E289B9884EF7 /* PBXContainerItemProxy */ = {
+		2FD64E00287729D0F4D634EEEEE5E2DE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = AF3B7A41D02E1EEAC0B0BFD5ED755CFC;
 			remoteInfo = "Pods-TPPush-Swift_Example";
 		};
-		4564C88D25D4906A344CF53BB03CCCB2 /* PBXContainerItemProxy */ = {
+		442F2521800E97CE25EF4E7FB5579114 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13E6B3350E4CA970A24ABDBB71777C4A;
+			remoteInfo = "TPFoundation-Swift";
+		};
+		979E6B8156F640CB35E8CE9FC715BC48 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 913B227D1174A9E74B56DB3BD11DD5F8;
 			remoteInfo = "TPPush-Swift";
 		};
-		476EC26CCFC175E90419A6082F118734 /* PBXContainerItemProxy */ = {
+		D1FCC2F49C3DE0479453CEB89D4803E4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -100,31 +100,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		026C055E8DCCDA49A20046F35BABE16B /* GeTuiSdk.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GeTuiSdk.h; sourceTree = "<group>"; };
 		0300028D11D7C3E8A49D9BB4C16CD347 /* Data+TP.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Data+TP.swift"; path = "TPFoundation-Swift/Classes/Category/Data+TP.swift"; sourceTree = "<group>"; };
 		051C36C0A2AF851928A10E5ACCC4BA4D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		06DB2C18B4BB6A14D1DED559D68962DF /* MethodSwizzling.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MethodSwizzling.swift; path = "TPFoundation-Swift/Classes/Define/MethodSwizzling.swift"; sourceTree = "<group>"; };
 		07E74979AF30F867EB320145D13FB097 /* CollectionItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CollectionItem.swift; path = "TPFoundation-Swift/Classes/Utils/Proxy/CollectionView/CollectionItem.swift"; sourceTree = "<group>"; };
-		0879817BF16F2750D7E7F98DC72DAAF2 /* Manager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
 		0A057ADDC1A69949C96F54EC580C776E /* Date+TP.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Date+TP.swift"; path = "TPFoundation-Swift/Classes/Category/Date+TP.swift"; sourceTree = "<group>"; };
 		0A2F81E57247BFBB9DA2D9667B432A73 /* Pods-TPPush-Swift_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TPPush-Swift_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		0BBBB6BB4856B56632BC251F6952942E /* Pods-TPPush-Swift_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TPPush-Swift_Example-umbrella.h"; sourceTree = "<group>"; };
 		0BDA26679634B24445DF0ADFB6C32356 /* Pods-TPPush-Swift_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TPPush-Swift_Tests-umbrella.h"; sourceTree = "<group>"; };
 		0C5C72F78D05D16E74E3D9ABCC19160D /* SafeArray.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SafeArray.swift; path = "TPFoundation-Swift/Classes/Utils/SafeContainer/SafeArray.swift"; sourceTree = "<group>"; };
 		0CC16F668F448D1A510AEA98D23C1428 /* TPFoundation_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TPFoundation_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		151606976D705DEECC884ED52F4EB96E /* GTSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GTSDK.framework; path = ../ThirdParty/GTSDK.framework; sourceTree = "<group>"; };
-		157064982446C57CD84E9108E3282D45 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		152596FB1EBABC5788F41DAEF1A4BB01 /* Pusher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Pusher.swift; sourceTree = "<group>"; };
 		17E77B09CA83D2763419DFBCF2141B94 /* Pods-TPPush-Swift_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TPPush-Swift_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		197C316F9D4FAB3AF0A5826FD94494FD /* ScreenShot.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScreenShot.swift; path = "TPFoundation-Swift/Classes/Utils/ScreenShot/ScreenShot.swift"; sourceTree = "<group>"; };
 		1B286C34F511EAB70C5C397FAE3C14AB /* Image+TP.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Image+TP.swift"; path = "TPFoundation-Swift/Classes/Category/Image+TP.swift"; sourceTree = "<group>"; };
-		25E922150993F472CA49C45CEA95E448 /* TPPush-Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "TPPush-Swift.debug.xcconfig"; sourceTree = "<group>"; };
-		2B236952FAC50FD174BC0FA93EC49363 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		2FD67CB5AAC12B524EB11134C37622CD /* Pods-TPPush-Swift_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TPPush-Swift_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		353A8C57E4A8531C979BD95D957BB382 /* Codable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Codable.swift; path = "TPFoundation-Swift/Classes/Utils/Codable/Codable.swift"; sourceTree = "<group>"; };
 		3B2F070AD2C34296A88EB3422E92496A /* Pods-TPPush-Swift_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TPPush-Swift_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		3B53EA3FD979F3192DEE9E12DCA8509B /* TableSection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TableSection.swift; path = "TPFoundation-Swift/Classes/Utils/Proxy/TableView/TableSection.swift"; sourceTree = "<group>"; };
 		3F5446B41068896ED5C7D22B87951680 /* Pods-TPPush-Swift_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TPPush-Swift_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3FB4C30237548D89C0B79A29CDB11F02 /* TPPush-Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TPPush-Swift-umbrella.h"; sourceTree = "<group>"; };
-		407274ED85391A7B9BEA86AC4FAB258A /* Pods_TPPush_Swift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TPPush_Swift_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		407274ED85391A7B9BEA86AC4FAB258A /* Pods_TPPush_Swift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TPPush_Swift_Tests.framework; path = "Pods-TPPush-Swift_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4122409F680F65466F44FD4046720AC5 /* QRCode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRCode.swift; path = "TPFoundation-Swift/Classes/Utils/QRCode/QRCode.swift"; sourceTree = "<group>"; };
 		42A7C52DDEA18BBE446606104C2B56E8 /* Then.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Then.swift; path = "TPFoundation-Swift/Classes/Utils/Then/Then.swift"; sourceTree = "<group>"; };
 		47F7C23DD04A9DF7FC6C9819F147D336 /* ViewController+TP.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ViewController+TP.swift"; path = "TPFoundation-Swift/Classes/Category/ViewController+TP.swift"; sourceTree = "<group>"; };
@@ -136,58 +132,62 @@
 		4ECF3E43DD80800ACDB03C07B5590091 /* Stack.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Stack.swift; path = "TPFoundation-Swift/Classes/Utils/DataStructure/Stack.swift"; sourceTree = "<group>"; };
 		50EF643A808314186EB835E8FA4D7C8B /* Color+TP.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Color+TP.swift"; path = "TPFoundation-Swift/Classes/Category/Color+TP.swift"; sourceTree = "<group>"; };
 		55F6A8778AE5C7955998D02C5EEC0218 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UserNotifications.framework; sourceTree = DEVELOPER_DIR; };
-		573ECF5683AD7C42FB7179D36E98B340 /* TPPush-Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "TPPush-Swift.release.xcconfig"; sourceTree = "<group>"; };
-		574AE5BF585A48B1D25BCDE6681B5BB7 /* TPPush-Swift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = "TPPush-Swift.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		57B2B4CD031DC05D3964B201D2AA66FF /* GTSDK */ = {isa = PBXFileReference; includeInIndex = 1; path = GTSDK; sourceTree = "<group>"; };
 		57C38224B5DCA51B1BC27DB798A03B43 /* Pods-TPPush-Swift_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TPPush-Swift_Tests-dummy.m"; sourceTree = "<group>"; };
-		59CFB59CEE2BDED75E4C16BE95CD56BF /* GTSDK */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = GTSDK; sourceTree = "<group>"; };
-		5B66955A9BF21AFBA9E5AE56A941E732 /* TPPush-Swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TPPush-Swift-Info.plist"; sourceTree = "<group>"; };
-		5C6F094D974D03B616C2417C936ADFBC /* GTModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GTModel.swift; sourceTree = "<group>"; };
-		6530D7D9392AF042AFD72D28B425578B /* TPPush-Swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TPPush-Swift-prefix.pch"; sourceTree = "<group>"; };
+		5959C6E4CB24E8EAABAC392502B15810 /* TPPush-Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TPPush-Swift-dummy.m"; sourceTree = "<group>"; };
 		6760F741E3E66AD50C4D67C6A52B0C89 /* CollectionAdapter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CollectionAdapter.swift; path = "TPFoundation-Swift/Classes/Utils/Proxy/CollectionView/CollectionAdapter.swift"; sourceTree = "<group>"; };
-		6E2B0447379A20330EA92C46C38F9900 /* TPPush_Swift.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPPush_Swift.h; path = "TPPush-Swift/Classes/TPPush_Swift.h"; sourceTree = "<group>"; };
+		6F12B5CB6C618E10697FCEA21D1C8D0C /* Define.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Define.swift; sourceTree = "<group>"; };
 		70491104099AD54A29491637156B8952 /* Application+TP.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Application+TP.swift"; path = "TPFoundation-Swift/Classes/Category/Application+TP.swift"; sourceTree = "<group>"; };
 		73BD09404F5CE24C18AD07E8E0D239A6 /* TableContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TableContext.swift; path = "TPFoundation-Swift/Classes/Utils/Proxy/TableView/TableContext.swift"; sourceTree = "<group>"; };
 		761404A82A58B24235C6484BFDEC9D0C /* VIew+TP.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "VIew+TP.swift"; path = "TPFoundation-Swift/Classes/Category/VIew+TP.swift"; sourceTree = "<group>"; };
+		7743D106A0C4C586331D3D17B89232AD /* TPPush-Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "TPPush-Swift.modulemap"; sourceTree = "<group>"; };
 		7773B195F556E3B350179CC34F647A8F /* PushKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PushKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/PushKit.framework; sourceTree = DEVELOPER_DIR; };
 		7C928DE8CF19B70CD4002FB1830D3E30 /* TableAdapter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TableAdapter.swift; path = "TPFoundation-Swift/Classes/Utils/Proxy/TableView/TableAdapter.swift"; sourceTree = "<group>"; };
+		7F1AE3228E7B96E844E4BC9DC782D07F /* TPPush_Swift.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPPush_Swift.h; path = "TPPush-Swift/Classes/TPPush_Swift.h"; sourceTree = "<group>"; };
 		815934ED202F139D3261720588B95F21 /* Queue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Queue.swift; path = "TPFoundation-Swift/Classes/Utils/DataStructure/Queue.swift"; sourceTree = "<group>"; };
 		81F12D14A2B17D7430815C2F23547613 /* TPFoundation-Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "TPFoundation-Swift.debug.xcconfig"; sourceTree = "<group>"; };
 		84DF67F0DFEE5D0B011F4482A961484B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		8AEBE054332B25F3107B417B6238DA14 /* TPFoundation-Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "TPFoundation-Swift.release.xcconfig"; sourceTree = "<group>"; };
 		8B8AC40FC3DF443E32D3445408B14655 /* Asyncs.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Asyncs.swift; path = "TPFoundation-Swift/Classes/Utils/Asyncs/Asyncs.swift"; sourceTree = "<group>"; };
 		8BBF2A4C4DDB09B12AD5E11E16852A5C /* Pods-TPPush-Swift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TPPush-Swift_Example.release.xcconfig"; sourceTree = "<group>"; };
-		931E8E9C86A4369E63E570270E9F9A05 /* TPPush-Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "TPPush-Swift.modulemap"; sourceTree = "<group>"; };
+		91E144DDDC37647A2063908F9DAAD75F /* TPPush-Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "TPPush-Swift.release.xcconfig"; sourceTree = "<group>"; };
+		94D71968BB1458D5E1424452A1CAC9DF /* GTSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GTSDK.framework; path = ../ThirdParty/GTSDK.framework; sourceTree = "<group>"; };
 		9C96ADED05F7DA5AD20888AA1D18C4C2 /* TableRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TableRow.swift; path = "TPFoundation-Swift/Classes/Utils/Proxy/TableView/TableRow.swift"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A15A4778B936CB45810C97964215325B /* TPFoundation-Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "TPFoundation-Swift.modulemap"; sourceTree = "<group>"; };
-		A7B7D35112394527FB385F5523893F12 /* GeTuiSdk.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GeTuiSdk.h; sourceTree = "<group>"; };
+		A1C46AEDEA26775B36FF921103D49B2E /* TPPush-Swift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = "TPPush-Swift.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A8B872E1259D21BBD17F3614D48B4285 /* CommonUD.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CommonUD.swift; path = "TPFoundation-Swift/Classes/Utils/CommonUD/CommonUD.swift"; sourceTree = "<group>"; };
 		A9C3FC75C116D906E8B4BD55169A3D9D /* CellRegister.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CellRegister.swift; path = "TPFoundation-Swift/Classes/Utils/RegisterCell/CellRegister.swift"; sourceTree = "<group>"; };
-		B3D34C9F052584511B8826682C54FF9B /* Pods_TPPush_Swift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TPPush_Swift_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3D34C9F052584511B8826682C54FF9B /* Pods_TPPush_Swift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TPPush_Swift_Example.framework; path = "Pods-TPPush-Swift_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5C9D9FDC46C19509180AF60EFA23F74 /* Pods-TPPush-Swift_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TPPush-Swift_Example-dummy.m"; sourceTree = "<group>"; };
+		B625864DE42AE9495D83719E35E6AF91 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		B7B10EC4092B4577D87A3679BB597A27 /* TPFoundation-Swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TPFoundation-Swift-Info.plist"; sourceTree = "<group>"; };
 		B9CAEB4047208B1BAF69763181E9CE9F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
 		BB4A130DC01A390014C08BF60C950CCA /* Verify.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Verify.swift; path = "TPFoundation-Swift/Classes/Utils/Verify/Verify.swift"; sourceTree = "<group>"; };
-		BB9744470DE7286FD8F998134AB4AEF6 /* TPFoundation_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TPFoundation_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB9744470DE7286FD8F998134AB4AEF6 /* TPFoundation_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TPFoundation_Swift.framework; path = "TPFoundation-Swift.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAE7C0642883DC7A41AE3014019687B8 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/AdSupport.framework; sourceTree = DEVELOPER_DIR; };
 		CBACDF621874F851A1585C19EBF32B98 /* ScrollView+TP.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ScrollView+TP.swift"; path = "TPFoundation-Swift/Classes/Category/ScrollView+TP.swift"; sourceTree = "<group>"; };
-		CCBDE93BE5CAF913404125D5EE7BE40F /* Define.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Define.swift; sourceTree = "<group>"; };
 		CE2FFE1B6BB64EDA72DC1C6BE7783F5A /* Pods-TPPush-Swift_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TPPush-Swift_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		CEE1E498C2BDA553B56AFB98F3DA9936 /* TPPush_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TPPush_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEE1E498C2BDA553B56AFB98F3DA9936 /* TPPush_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TPPush_Swift.framework; path = "TPPush-Swift.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFAC297106EAE9913F68BE13C07A155F /* CollectionContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CollectionContext.swift; path = "TPFoundation-Swift/Classes/Utils/Proxy/CollectionView/CollectionContext.swift"; sourceTree = "<group>"; };
 		D124957BA4A244297F7B0DE665DF1988 /* TPFoundation-Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TPFoundation-Swift-umbrella.h"; sourceTree = "<group>"; };
 		D3F859B25A4DF2E9304B9D15DAF41A11 /* MultipleProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MultipleProxy.h; path = "TPFoundation-Swift/Classes/Utils/Proxy/MultipleProxy.h"; sourceTree = "<group>"; };
 		D5BB8E1F7B9DAFB4E745FCAE03437908 /* String+TP.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+TP.swift"; path = "TPFoundation-Swift/Classes/Category/String+TP.swift"; sourceTree = "<group>"; };
+		D67F584E82DA46ECBFD96FD6D01CB967 /* TPPush-Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TPPush-Swift-umbrella.h"; sourceTree = "<group>"; };
+		D98D6D0123B4C42FDB37C5DA27913CFF /* TPPush-Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "TPPush-Swift.debug.xcconfig"; sourceTree = "<group>"; };
 		DA853ECB17CC5F4B22A5A3563BAFB05A /* Font+TP.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Font+TP.swift"; path = "TPFoundation-Swift/Classes/Category/Font+TP.swift"; sourceTree = "<group>"; };
 		DBECE51B0E17EDCBCB15788DA4854B19 /* Pods-TPPush-Swift_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TPPush-Swift_Tests.modulemap"; sourceTree = "<group>"; };
 		DC980005D51C85FAA697212D45593181 /* NameSpace.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NameSpace.swift; path = "TPFoundation-Swift/Classes/Define/NameSpace.swift"; sourceTree = "<group>"; };
 		DF1DC8DB549B334CEEAC6CA39973971B /* CollectionSection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CollectionSection.swift; path = "TPFoundation-Swift/Classes/Utils/Proxy/CollectionView/CollectionSection.swift"; sourceTree = "<group>"; };
 		E32604A2108C75386FFE2EB1C233E3D1 /* Device+TP.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Device+TP.swift"; path = "TPFoundation-Swift/Classes/Category/Device+TP.swift"; sourceTree = "<group>"; };
-		E5403026DF1B7D2D1E2240B7CF5E2D6C /* Pusher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Pusher.swift; sourceTree = "<group>"; };
+		E949D8C8C5AE618C0365DEE7FC52E64B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		EA1C3C7BDCC6026E2D7865795E9A1AC4 /* TPPush-Swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TPPush-Swift-prefix.pch"; sourceTree = "<group>"; };
 		EE6993B1060BA36C519FCD1A3085CE5D /* Pods-TPPush-Swift_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TPPush-Swift_Example-Info.plist"; sourceTree = "<group>"; };
+		F16DB82B657F6D0278ED486763E1AB89 /* TPPush-Swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TPPush-Swift-Info.plist"; sourceTree = "<group>"; };
 		F392D45D97291958E0FBB72D155C9AA8 /* MultipleProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MultipleProxy.m; path = "TPFoundation-Swift/Classes/Utils/Proxy/MultipleProxy.m"; sourceTree = "<group>"; };
-		F4C2559206BA57508B6A9183AB89601E /* TPPush-Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TPPush-Swift-dummy.m"; sourceTree = "<group>"; };
+		F435B8BDFC1AAB431195A8A4EEFD3BEA /* Manager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
 		F726070CD1C8BE4D5C87B15C0B052C71 /* Pods-TPPush-Swift_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TPPush-Swift_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F9CCBFE9AC498F43DE79996B328CFE07 /* GTModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GTModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -207,6 +207,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		397A63C48CEBB51A40358A1D45ED5DA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				426E393FBF8311AFD11F94FACA5D3E6A /* AdSupport.framework in Frameworks */,
+				11ADE601B56076502E4B1CA592AF10CE /* Foundation.framework in Frameworks */,
+				838CB2FE5C691E55943A62AFC369D038 /* PushKit.framework in Frameworks */,
+				865A078C429D70E383A815C3AFD3B0F1 /* Security.framework in Frameworks */,
+				33AB4747F1AAE93F8616E0E2D2A56AF4 /* SystemConfiguration.framework in Frameworks */,
+				E609FC84051194E669F17E0A662004FE /* TPFoundation_Swift.framework in Frameworks */,
+				CCF779B2DD80F2161BE4155C18915832 /* UserNotifications.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5F14A6BBECD4F28EDF4FF484A28974CB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -215,52 +229,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8F003F029C1D7A2D2ED83814721EAAE0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				53880DE480119997B19A8E85567AE229 /* AdSupport.framework in Frameworks */,
-				611D3F117DFE722B752D5FA2C11DB770 /* Foundation.framework in Frameworks */,
-				9AB8FFB7A7AAC8A8552947371C3BAE99 /* PushKit.framework in Frameworks */,
-				F5822E567B72D47DED250A8EFF5A3D0F /* Security.framework in Frameworks */,
-				BC23602734CDBA8269DE5F4853ADC5C5 /* SystemConfiguration.framework in Frameworks */,
-				95D0A71B69A715DB914D64D0C656EA3C /* TPFoundation_Swift.framework in Frameworks */,
-				07DD69C406E432196DE3048128E28F42 /* UserNotifications.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0FE31F6F6050FE4BB53C705D51701B03 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				151606976D705DEECC884ED52F4EB96E /* GTSDK.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		14EC8A53A332F8CA6DF1C48A52CE73AB /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				931E8E9C86A4369E63E570270E9F9A05 /* TPPush-Swift.modulemap */,
-				F4C2559206BA57508B6A9183AB89601E /* TPPush-Swift-dummy.m */,
-				5B66955A9BF21AFBA9E5AE56A941E732 /* TPPush-Swift-Info.plist */,
-				6530D7D9392AF042AFD72D28B425578B /* TPPush-Swift-prefix.pch */,
-				3FB4C30237548D89C0B79A29CDB11F02 /* TPPush-Swift-umbrella.h */,
-				25E922150993F472CA49C45CEA95E448 /* TPPush-Swift.debug.xcconfig */,
-				573ECF5683AD7C42FB7179D36E98B340 /* TPPush-Swift.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/TPPush-Swift";
-			sourceTree = "<group>";
-		};
 		1766902E80D64032EF861C2E1CE2A1EC /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				C7988D9619D7D6F284B9B9C151D89D10 /* TPFoundation-Swift */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		21D2CB2F87B72CA436594AD964430DEC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				94D71968BB1458D5E1424452A1CAC9DF /* GTSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2B63DEC8EA6B7D00F60AB2484142E016 /* GTSDK.framework */ = {
+			isa = PBXGroup;
+			children = (
+				57B2B4CD031DC05D3964B201D2AA66FF /* GTSDK */,
+				3EDC28C4DA4057F192A1D968C3CFB533 /* Headers */,
+			);
+			name = GTSDK.framework;
+			path = GTSDK.framework;
 			sourceTree = "<group>";
 		};
 		314A9FDBEEE366018CD1DAB7AD5D0C1A /* Pods-TPPush-Swift_Tests */ = {
@@ -279,31 +274,42 @@
 			path = "Target Support Files/Pods-TPPush-Swift_Tests";
 			sourceTree = "<group>";
 		};
-		345E4C65358C995CD5BF515D4D06DCFB /* Headers */ = {
+		31BDDAE79B7D3370527B63A89E40EB38 /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				A7B7D35112394527FB385F5523893F12 /* GeTuiSdk.h */,
+				6F12B5CB6C618E10697FCEA21D1C8D0C /* Define.swift */,
+				F435B8BDFC1AAB431195A8A4EEFD3BEA /* Manager.swift */,
+				152596FB1EBABC5788F41DAEF1A4BB01 /* Pusher.swift */,
 			);
+			name = Base;
+			path = "TPPush-Swift/Classes/Base";
+			sourceTree = "<group>";
+		};
+		3BA0DD568BE04C354EF98727BE7DD3E1 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				B625864DE42AE9495D83719E35E6AF91 /* LICENSE */,
+				E949D8C8C5AE618C0365DEE7FC52E64B /* README.md */,
+				A1C46AEDEA26775B36FF921103D49B2E /* TPPush-Swift.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		3EDC28C4DA4057F192A1D968C3CFB533 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				026C055E8DCCDA49A20046F35BABE16B /* GeTuiSdk.h */,
+			);
+			name = Headers;
 			path = Headers;
 			sourceTree = "<group>";
 		};
 		518B9DA998B00CC8935375EC28D17AD0 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B49E31B7DC75CD1384C4719D5C4640E4 /* TPPush-Swift */,
+				F4CD249F394279BC4049F74BFDC17427 /* TPPush-Swift */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		5956E9C0A25F558AA6EA4511668AF492 /* Base */ = {
-			isa = PBXGroup;
-			children = (
-				CCBDE93BE5CAF913404125D5EE7BE40F /* Define.swift */,
-				0879817BF16F2750D7E7F98DC72DAAF2 /* Manager.swift */,
-				E5403026DF1B7D2D1E2240B7CF5E2D6C /* Pusher.swift */,
-			);
-			name = Base;
-			path = "TPPush-Swift/Classes/Base";
 			sourceTree = "<group>";
 		};
 		62F0F439E80203E9A5E3DF66CF694EA5 /* Pods-TPPush-Swift_Example */ = {
@@ -321,15 +327,6 @@
 			);
 			name = "Pods-TPPush-Swift_Example";
 			path = "Target Support Files/Pods-TPPush-Swift_Example";
-			sourceTree = "<group>";
-		};
-		67F8A043FE03B0B3F2499A39AA8FBA93 /* ThirdParty */ = {
-			isa = PBXGroup;
-			children = (
-				FC82BA29ACFFCB52FFF0F5B1DE65A56B /* GTSDK.framework */,
-			);
-			name = ThirdParty;
-			path = "TPPush-Swift/Classes/ThirdParty";
 			sourceTree = "<group>";
 		};
 		9C693EC8F9F542B5C5BA4D46A7AA3A29 /* Frameworks */ = {
@@ -350,28 +347,13 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		B49E31B7DC75CD1384C4719D5C4640E4 /* TPPush-Swift */ = {
+		C2F2AFC62D3F978D73EF1E72E8E4DA92 /* ThirdParty */ = {
 			isa = PBXGroup;
 			children = (
-				6E2B0447379A20330EA92C46C38F9900 /* TPPush_Swift.h */,
-				5956E9C0A25F558AA6EA4511668AF492 /* Base */,
-				C788FC1D36ECF47F9AD09779D0EB2FDA /* GT */,
-				DD9D071DF080676A881E8414834C5883 /* Pod */,
-				14EC8A53A332F8CA6DF1C48A52CE73AB /* Support Files */,
-				67F8A043FE03B0B3F2499A39AA8FBA93 /* ThirdParty */,
+				2B63DEC8EA6B7D00F60AB2484142E016 /* GTSDK.framework */,
 			);
-			name = "TPPush-Swift";
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		C788FC1D36ECF47F9AD09779D0EB2FDA /* GT */ = {
-			isa = PBXGroup;
-			children = (
-				5C6F094D974D03B616C2417C936ADFBC /* GTModel.swift */,
-				0FE31F6F6050FE4BB53C705D51701B03 /* Frameworks */,
-			);
-			name = GT;
-			path = "TPPush-Swift/Classes/GT";
+			name = ThirdParty;
+			path = "TPPush-Swift/Classes/ThirdParty";
 			sourceTree = "<group>";
 		};
 		C7988D9619D7D6F284B9B9C151D89D10 /* TPFoundation-Swift */ = {
@@ -413,6 +395,7 @@
 				47F7C23DD04A9DF7FC6C9819F147D336 /* ViewController+TP.swift */,
 				FAF129B57C17992E20694495882CD79A /* Support Files */,
 			);
+			name = "TPFoundation-Swift";
 			path = "TPFoundation-Swift";
 			sourceTree = "<group>";
 		};
@@ -426,16 +409,6 @@
 				E0F111D91BAB0B4C1E6A458B6898246D /* Products */,
 				ABB073E7AAF749F195FDC801A7B24698 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		DD9D071DF080676A881E8414834C5883 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				157064982446C57CD84E9108E3282D45 /* LICENSE */,
-				2B236952FAC50FD174BC0FA93EC49363 /* README.md */,
-				574AE5BF585A48B1D25BCDE6681B5BB7 /* TPPush-Swift.podspec */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		E0F111D91BAB0B4C1E6A458B6898246D /* Products */ = {
@@ -462,6 +435,35 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		F2406E90E99D71A3C99E32BADA163756 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7743D106A0C4C586331D3D17B89232AD /* TPPush-Swift.modulemap */,
+				5959C6E4CB24E8EAABAC392502B15810 /* TPPush-Swift-dummy.m */,
+				F16DB82B657F6D0278ED486763E1AB89 /* TPPush-Swift-Info.plist */,
+				EA1C3C7BDCC6026E2D7865795E9A1AC4 /* TPPush-Swift-prefix.pch */,
+				D67F584E82DA46ECBFD96FD6D01CB967 /* TPPush-Swift-umbrella.h */,
+				D98D6D0123B4C42FDB37C5DA27913CFF /* TPPush-Swift.debug.xcconfig */,
+				91E144DDDC37647A2063908F9DAAD75F /* TPPush-Swift.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TPPush-Swift";
+			sourceTree = "<group>";
+		};
+		F4CD249F394279BC4049F74BFDC17427 /* TPPush-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				7F1AE3228E7B96E844E4BC9DC782D07F /* TPPush_Swift.h */,
+				31BDDAE79B7D3370527B63A89E40EB38 /* Base */,
+				FE00F9F688D3834E5D536D283644E322 /* GT */,
+				3BA0DD568BE04C354EF98727BE7DD3E1 /* Pod */,
+				F2406E90E99D71A3C99E32BADA163756 /* Support Files */,
+				C2F2AFC62D3F978D73EF1E72E8E4DA92 /* ThirdParty */,
+			);
+			name = "TPPush-Swift";
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		FAF129B57C17992E20694495882CD79A /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -477,13 +479,14 @@
 			path = "../Target Support Files/TPFoundation-Swift";
 			sourceTree = "<group>";
 		};
-		FC82BA29ACFFCB52FFF0F5B1DE65A56B /* GTSDK.framework */ = {
+		FE00F9F688D3834E5D536D283644E322 /* GT */ = {
 			isa = PBXGroup;
 			children = (
-				59CFB59CEE2BDED75E4C16BE95CD56BF /* GTSDK */,
-				345E4C65358C995CD5BF515D4D06DCFB /* Headers */,
+				F9CCBFE9AC498F43DE79996B328CFE07 /* GTModel.swift */,
+				21D2CB2F87B72CA436594AD964430DEC /* Frameworks */,
 			);
-			path = GTSDK.framework;
+			name = GT;
+			path = "TPPush-Swift/Classes/GT";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -505,13 +508,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		91CB35FC374782FC29B5441F4E3FE346 /* Headers */ = {
+		7EC2CDCDD3A6F2AA0AC58AABE3880C3B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B3B10F003211FF359F548DC15BE6D9C /* GeTuiSdk.h in Headers */,
-				45BF532E6904B29601217E2B5D318FF3 /* TPPush-Swift-umbrella.h in Headers */,
-				617EEACFB75202DFF755AA7923FA2332 /* TPPush_Swift.h in Headers */,
+				9518B61A9723393AB2ACB290BE312D27 /* GeTuiSdk.h in Headers */,
+				718BB17ADFF3EF6AB154743D0FF9E72C /* TPPush-Swift-umbrella.h in Headers */,
+				176B50A881F29D95AFED73B10386DFCD /* TPPush_Swift.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -557,7 +560,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				779560B1304C408C931A05EC8AB2101E /* PBXTargetDependency */,
+				2C724B46AC66675165D21DA77035184F /* PBXTargetDependency */,
 			);
 			name = "Pods-TPPush-Swift_Tests";
 			productName = "Pods-TPPush-Swift_Tests";
@@ -566,17 +569,17 @@
 		};
 		913B227D1174A9E74B56DB3BD11DD5F8 /* TPPush-Swift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5DDDD42EC5C10FD9817A34A96ACA9EA7 /* Build configuration list for PBXNativeTarget "TPPush-Swift" */;
+			buildConfigurationList = 1152EAE4F397DE4C431D39C94B22AEB2 /* Build configuration list for PBXNativeTarget "TPPush-Swift" */;
 			buildPhases = (
-				91CB35FC374782FC29B5441F4E3FE346 /* Headers */,
-				F9BDFEC4D35D430D6D2FF9F1B24292BD /* Sources */,
-				8F003F029C1D7A2D2ED83814721EAAE0 /* Frameworks */,
-				A46E20A8368EA32BC891356FFA91D4B0 /* Resources */,
+				7EC2CDCDD3A6F2AA0AC58AABE3880C3B /* Headers */,
+				367BD73E18FF1825A0E39DC55C07A28E /* Sources */,
+				397A63C48CEBB51A40358A1D45ED5DA2 /* Frameworks */,
+				9A810EEE5E7E8DE915893552A7F29A35 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				32805A62ED2776E2D09D1B4E515CFDE8 /* PBXTargetDependency */,
+				4C67DD70C9179E777D99CAAFDA435F08 /* PBXTargetDependency */,
 			);
 			name = "TPPush-Swift";
 			productName = "TPPush-Swift";
@@ -595,8 +598,8 @@
 			buildRules = (
 			);
 			dependencies = (
-				AC6C39C8233E7A247DADA71C2D556693 /* PBXTargetDependency */,
-				718DDED9F0060B2AFF5AD98CE6B8BB17 /* PBXTargetDependency */,
+				27F6A4215122D842D5B3F8E18814E907 /* PBXTargetDependency */,
+				89FF02F3DD1BEB89DD777D101448C3E3 /* PBXTargetDependency */,
 			);
 			name = "Pods-TPPush-Swift_Example";
 			productName = "Pods-TPPush-Swift_Example";
@@ -648,7 +651,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A46E20A8368EA32BC891356FFA91D4B0 /* Resources */ = {
+		9A810EEE5E7E8DE915893552A7F29A35 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -665,6 +668,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		367BD73E18FF1825A0E39DC55C07A28E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C82AD0BB1CF394A550E11B705A25B4BC /* Define.swift in Sources */,
+				CA54C48707F78372D92604C5B0394ECC /* GTModel.swift in Sources */,
+				282F609A9B8BF03A0F3E4EE444E0B8E4 /* GTSDK in Sources */,
+				30E92049249B724A7967295B3F4D16E5 /* Manager.swift in Sources */,
+				304B6B556EB76A81EB813E2709F42B56 /* Pusher.swift in Sources */,
+				2947C2C01BB97007D0CFD120F606B868 /* TPPush-Swift-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4A4AD323CFDCA7C248B60585889ED1D3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -722,45 +738,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F9BDFEC4D35D430D6D2FF9F1B24292BD /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				48F800FFBED4B2202709D88A77AF5D80 /* Define.swift in Sources */,
-				585F5C55BE0F955C9D268FF555574627 /* GTModel.swift in Sources */,
-				7F7CC0BD01F4B1313D011EA15389298A /* GTSDK in Sources */,
-				07CA4EF3F42AFEFC6D2674C9B90609DC /* Manager.swift in Sources */,
-				89F64320A79680DC5E2DA4F014432CBD /* Pusher.swift in Sources */,
-				2BCED7E2653DF8CCFC1EEB6E63CFB947 /* TPPush-Swift-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		32805A62ED2776E2D09D1B4E515CFDE8 /* PBXTargetDependency */ = {
+		27F6A4215122D842D5B3F8E18814E907 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "TPFoundation-Swift";
 			target = 13E6B3350E4CA970A24ABDBB71777C4A /* TPFoundation-Swift */;
-			targetProxy = 476EC26CCFC175E90419A6082F118734 /* PBXContainerItemProxy */;
+			targetProxy = 442F2521800E97CE25EF4E7FB5579114 /* PBXContainerItemProxy */;
 		};
-		718DDED9F0060B2AFF5AD98CE6B8BB17 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "TPPush-Swift";
-			target = 913B227D1174A9E74B56DB3BD11DD5F8 /* TPPush-Swift */;
-			targetProxy = 4564C88D25D4906A344CF53BB03CCCB2 /* PBXContainerItemProxy */;
-		};
-		779560B1304C408C931A05EC8AB2101E /* PBXTargetDependency */ = {
+		2C724B46AC66675165D21DA77035184F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-TPPush-Swift_Example";
 			target = AF3B7A41D02E1EEAC0B0BFD5ED755CFC /* Pods-TPPush-Swift_Example */;
-			targetProxy = 2AE8D0D21B306F0DA7C8E289B9884EF7 /* PBXContainerItemProxy */;
+			targetProxy = 2FD64E00287729D0F4D634EEEEE5E2DE /* PBXContainerItemProxy */;
 		};
-		AC6C39C8233E7A247DADA71C2D556693 /* PBXTargetDependency */ = {
+		4C67DD70C9179E777D99CAAFDA435F08 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "TPFoundation-Swift";
 			target = 13E6B3350E4CA970A24ABDBB71777C4A /* TPFoundation-Swift */;
-			targetProxy = 1C54BF74311A6A826C7566F8EAC9AC34 /* PBXContainerItemProxy */;
+			targetProxy = D1FCC2F49C3DE0479453CEB89D4803E4 /* PBXContainerItemProxy */;
+		};
+		89FF02F3DD1BEB89DD777D101448C3E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "TPPush-Swift";
+			target = 913B227D1174A9E74B56DB3BD11DD5F8 /* TPPush-Swift */;
+			targetProxy = 979E6B8156F640CB35E8CE9FC715BC48 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -794,37 +797,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		647F2580A1D01D08AB20BBD1AC99855E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 573ECF5683AD7C42FB7179D36E98B340 /* TPPush-Swift.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/TPPush-Swift/TPPush-Swift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TPPush-Swift/TPPush-Swift-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				MODULEMAP_FILE = "Target Support Files/TPPush-Swift/TPPush-Swift.modulemap";
-				PRODUCT_MODULE_NAME = TPPush_Swift;
-				PRODUCT_NAME = TPPush_Swift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		663A28D6DB880693866939318DEF43A9 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -915,7 +887,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -948,6 +921,36 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9F2C1E2E19298E9F5DB255AC1E6C3CCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D98D6D0123B4C42FDB37C5DA27913CFF /* TPPush-Swift.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TPPush-Swift/TPPush-Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TPPush-Swift/TPPush-Swift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MODULEMAP_FILE = "Target Support Files/TPPush-Swift/TPPush-Swift.modulemap";
+				PRODUCT_MODULE_NAME = TPPush_Swift;
+				PRODUCT_NAME = TPPush_Swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1018,36 +1021,6 @@
 			};
 			name = Release;
 		};
-		A85E37E3062EE9ECF4EEC603A1D6152C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 25E922150993F472CA49C45CEA95E448 /* TPPush-Swift.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/TPPush-Swift/TPPush-Swift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TPPush-Swift/TPPush-Swift-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				MODULEMAP_FILE = "Target Support Files/TPPush-Swift/TPPush-Swift.modulemap";
-				PRODUCT_MODULE_NAME = TPPush_Swift;
-				PRODUCT_NAME = TPPush_Swift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1114,6 +1087,37 @@
 			};
 			name = Debug;
 		};
+		D578669C37130A7BF45F8C12180F4E36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91E144DDDC37647A2063908F9DAAD75F /* TPPush-Swift.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TPPush-Swift/TPPush-Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TPPush-Swift/TPPush-Swift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MODULEMAP_FILE = "Target Support Files/TPPush-Swift/TPPush-Swift.modulemap";
+				PRODUCT_MODULE_NAME = TPPush_Swift;
+				PRODUCT_NAME = TPPush_Swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		ED2D33C8C55C4C63E8AA5588C869C1EA /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2FD67CB5AAC12B524EB11134C37622CD /* Pods-TPPush-Swift_Tests.release.xcconfig */;
@@ -1151,20 +1155,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1152EAE4F397DE4C431D39C94B22AEB2 /* Build configuration list for PBXNativeTarget "TPPush-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F2C1E2E19298E9F5DB255AC1E6C3CCB /* Debug */,
+				D578669C37130A7BF45F8C12180F4E36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
 				7EE7A78859F657F6BEFC651185B43192 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		5DDDD42EC5C10FD9817A34A96ACA9EA7 /* Build configuration list for PBXNativeTarget "TPPush-Swift" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A85E37E3062EE9ECF4EEC603A1D6152C /* Debug */,
-				647F2580A1D01D08AB20BBD1AC99855E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
