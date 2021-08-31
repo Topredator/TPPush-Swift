@@ -40,9 +40,15 @@ TODO: Add long description of the pod here.
       ss.source_files = 'TPPush-Swift/Classes/GT/*'
       ss.dependency 'TPPush-Swift/Base'
       ss.pod_target_xcconfig = {
-          "SWIFT_INCLUDE_PATHS" => ['$(PODS_ROOT)/TPPush-Swift/Module', '$(PODS_TARGET_SRCROOT)/TPPush-Swift/Module']
+          'SWIFT_INCLUDE_PATHS' => [
+                '$(PODS_ROOT)/TPPush-Swift/Module',
+                '$(PODS_TARGET_SRCROOT)/TPPush-Swift/Module'
+          ]
       }
-      ss.preserve_paths = ['TPPush-Swift/Module/module.modulemap', 'TPPush-Swift/Module/TPPush_Swift.h']
+      ss.preserve_paths = [
+            'TPPush-Swift/Module/module.modulemap',
+            'TPPush-Swift/Module/BridgeHeader.h'
+      ]
       ss.dependency 'GTSDK'
   end
   

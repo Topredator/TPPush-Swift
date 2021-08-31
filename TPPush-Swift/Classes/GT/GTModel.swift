@@ -35,9 +35,6 @@ extension GTModel: GeTuiSdkDelegate {
     
     // MARK:  ------------- Public method --------------------
     public func register() {
-        guard let identify = identifier, let key = key, let secret = secret else {
-            fatalError("appId, appKey, appSecret 不能为空")
-        }
         GeTuiSdk.start(withAppId: identify, appKey: key, appSecret: secret, delegate: self)
     }
     public func registerDeviceToken(_ token: String?) {

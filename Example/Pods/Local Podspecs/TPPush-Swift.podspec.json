@@ -48,7 +48,7 @@
       },
       "preserve_paths": [
         "TPPush-Swift/Module/module.modulemap",
-        "TPPush-Swift/Module/TPPush_Swift.h"
+        "TPPush-Swift/Module/BridgeHeader.h"
       ]
     }
   ]
