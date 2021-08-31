@@ -8,5 +8,6 @@
 #ifndef TPPush_Swift_h
 #define TPPush_Swift_h
 
+#import "GeTuiSdk.h"
 
 #endif /* TPPush_Swift_h */

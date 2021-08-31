@@ -10,8 +10,10 @@
 #endif
 #endif
 
+#import "GTManager.h"
 #import "GeTuiSdk.h"
 #import "TPPush_Swift.h"
+#import "GTManager.h"
 
 FOUNDATION_EXPORT double TPPush_SwiftVersionNumber;
 FOUNDATION_EXPORT const unsigned char TPPush_SwiftVersionString[];
