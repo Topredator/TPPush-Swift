@@ -27,7 +27,7 @@ public extension ConnectMessageHandle {
 }
 
 /// 第三方平台
-public protocol PlatformWrapper {
+public protocol PlatformWrapper: AnyObject {
     /// 初始化
     func register()
     /// 注册设备token

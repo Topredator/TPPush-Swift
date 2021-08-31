@@ -14,7 +14,7 @@ public extension Notification.Name {
 }
 
 public class GTModel: NSObject, PlatformWrapper {
-    public var handler: ConnectMessageHandle? = nil
+    public weak var handler: ConnectMessageHandle? = nil
     let key: String
     let secret: String
     let identify: String
