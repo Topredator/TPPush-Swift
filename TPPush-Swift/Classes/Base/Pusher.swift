@@ -16,6 +16,10 @@ public struct Pusher {
     public static func registerDeviceToken(_ data: Data) {
         Manager.shared.registerDeviceToken(data)
     }
+    /// 设置 通知实现代理
+    public static func configNotifyDelegate(_ delegate: PushNotify) {
+        Manager.shared.delegate = delegate
+    }
     
     /// 获取 第三方平台 通行证 (与自己服务器对接)
     public static func platformPass() -> String? {
