@@ -18,38 +18,26 @@
   "platforms": {
     "ios": "10.0"
   },
+  "swift_versions": "5.0",
   "static_framework": true,
-  "source_files": "TPPush-Swift/Classes/Base/*",
+  "source_files": "TPPush-Swift/Classes/**/*",
+  "pod_target_xcconfig": {
+    "SWIFT_INCLUDE_PATHS": [
+      "$(PODS_ROOT)/TPPush-Swift/Module",
+      "$(PODS_TARGET_SRCROOT)/TPPush-Swift/Module"
+    ]
+  },
+  "preserve_paths": [
+    "TPPush-Swift/Module/module.modulemap",
+    "TPPush-Swift/Module/BridgeHeader.h"
+  ],
   "dependencies": {
+    "GTSDK": [
+
+    ],
     "TPFoundation-Swift": [
 
     ]
   },
-  "subspecs": [
-    {
-      "name": "Base"
-    },
-    {
-      "name": "GT",
-      "source_files": "TPPush-Swift/Classes/GT/*",
-      "dependencies": {
-        "TPPush-Swift/Base": [
-
-        ],
-        "GTSDK": [
-
-        ]
-      },
-      "pod_target_xcconfig": {
-        "SWIFT_INCLUDE_PATHS": [
-          "$(PODS_ROOT)/TPPush-Swift/Module",
-          "$(PODS_TARGET_SRCROOT)/TPPush-Swift/Module"
-        ]
-      },
-      "preserve_paths": [
-        "TPPush-Swift/Module/module.modulemap",
-        "TPPush-Swift/Module/BridgeHeader.h"
-      ]
-    }
-  ]
+  "swift_version": "5.0"
 }

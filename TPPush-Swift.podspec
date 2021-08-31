@@ -29,29 +29,20 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
+  s.swift_version = '5.0'
   s.static_framework = true
   s.source_files = 'TPPush-Swift/Classes/**/*'
-  
-  s.subspec 'Base' do |ss|
-      s.source_files = 'TPPush-Swift/Classes/Base/*'
-  end
-  
-  s.subspec 'GT' do |ss|
-      ss.source_files = 'TPPush-Swift/Classes/GT/*'
-      ss.dependency 'TPPush-Swift/Base'
-      ss.pod_target_xcconfig = {
-          'SWIFT_INCLUDE_PATHS' => [
-                '$(PODS_ROOT)/TPPush-Swift/Module',
-                '$(PODS_TARGET_SRCROOT)/TPPush-Swift/Module'
-          ]
-      }
-      ss.preserve_paths = [
-            'TPPush-Swift/Module/module.modulemap',
-            'TPPush-Swift/Module/BridgeHeader.h'
+  s.pod_target_xcconfig = {
+      'SWIFT_INCLUDE_PATHS' => [
+            '$(PODS_ROOT)/TPPush-Swift/Module',
+            '$(PODS_TARGET_SRCROOT)/TPPush-Swift/Module'
       ]
-      ss.dependency 'GTSDK'
-  end
-  
+  }
+  s.preserve_paths = [
+        'TPPush-Swift/Module/module.modulemap',
+        'TPPush-Swift/Module/BridgeHeader.h'
+  ]
+  s.dependency 'GTSDK'
 #  s.pod_target_xcconfig = {
 ##      'HEADER_SEARCH_PATHS' => '$(PODS_ROOT)/TPPush-Swift/ThirdParty/*.framework/Headers',
 ##      'LD_RUNPATH_SEARCH_PATHS' => '$(PODS_ROOT)/TPPush-Swift/ThirdParty/',
