@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import TPPush
 
 public extension Notification.Name {
    /// 接收到 远程推送

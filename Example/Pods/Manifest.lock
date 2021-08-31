@@ -1,4 +1,5 @@
 PODS:
+  - GTSDK (2.5.10.0)
   - TPFoundation-Swift (1.0.0)
   - TPPush-Swift (1.0.0):
     - TPFoundation-Swift
@@ -7,6 +8,7 @@ PODS:
   - TPPush-Swift/Base (1.0.0):
     - TPFoundation-Swift
   - TPPush-Swift/GT (1.0.0):
+    - GTSDK
     - TPFoundation-Swift
     - TPPush-Swift/Base
 
@@ -15,6 +17,7 @@ DEPENDENCIES:
 
 SPEC REPOS:
   trunk:
+    - GTSDK
     - TPFoundation-Swift
 
 EXTERNAL SOURCES:
@@ -22,8 +25,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
+  GTSDK: f426fae94fc12699dd5448aa99ae31eb92f99c76
   TPFoundation-Swift: b1be14c16eff9220f9066b410fdbdec5c1a4a6a1
-  TPPush-Swift: c3bab4407a9521e1e703589ac69cedccc6ed4160
+  TPPush-Swift: 1553a7907372847c838c23c53c602eb12971d78a
 
 PODFILE CHECKSUM: 16b7f6c11f5e12d755b59c46ac7f169471615daa
 

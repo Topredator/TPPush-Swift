@@ -1,11 +1,10 @@
 ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES
-CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES
 CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/TPFoundation-Swift" "${PODS_CONFIGURATION_BUILD_DIR}/TPPush-Swift" "${PODS_ROOT}/../../TPPush-Swift/Classes/ThirdParty"
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/TPFoundation-Swift" "${PODS_CONFIGURATION_BUILD_DIR}/TPPush-Swift" "${PODS_ROOT}/GTSDK"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
 HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/TPFoundation-Swift/TPFoundation_Swift.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/TPPush-Swift/TPPush_Swift.framework/Headers"
 LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
-OTHER_LDFLAGS = $(inherited) -ObjC -l"c++" -l"resolv" -l"sqlite3" -l"z" -framework "AdSupport" -framework "PushKit" -framework "Security" -framework "SystemConfiguration" -framework "TPFoundation_Swift" -framework "TPPush_Swift" -framework "UserNotifications"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"c++" -l"resolv" -l"sqlite3.0" -l"z" -framework "AVFoundation" -framework "CFNetwork" -framework "CoreLocation" -framework "CoreTelephony" -framework "GTSDK" -framework "Security" -framework "SystemConfiguration" -framework "TPFoundation_Swift" -framework "TPPush_Swift" -weak_framework "AppTrackingTransparency" -weak_framework "UserNotifications"
 OTHER_SWIFT_FLAGS = $(inherited) -D COCOAPODS
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)

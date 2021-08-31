@@ -292,12 +292,10 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-TPPush-Swift_Example/Pods-TPPush-Swift_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/TPFoundation-Swift/TPFoundation_Swift.framework",
-				"${BUILT_PRODUCTS_DIR}/TPPush-Swift/TPPush_Swift.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TPFoundation_Swift.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TPPush_Swift.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

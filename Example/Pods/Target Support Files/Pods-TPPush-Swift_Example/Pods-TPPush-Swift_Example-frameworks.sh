@@ -176,11 +176,9 @@ code_sign_if_enabled() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/TPFoundation-Swift/TPFoundation_Swift.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/TPPush-Swift/TPPush_Swift.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/TPFoundation-Swift/TPFoundation_Swift.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/TPPush-Swift/TPPush_Swift.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

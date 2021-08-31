@@ -29,23 +29,31 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
-
+  s.static_framework = true
   s.source_files = 'TPPush-Swift/Classes/**/*'
+  
   s.subspec 'Base' do |ss|
-      ss.source_files = 'TPPush-Swift/Classes/Base/**/*'
+      s.source_files = 'TPPush-Swift/Classes/Base/*'
   end
+  
   s.subspec 'GT' do |ss|
-      ss.source_files = 'TPPush-Swift/Classes/GT/**/*'
+      ss.source_files = 'TPPush-Swift/Classes/GT/*'
       ss.dependency 'TPPush-Swift/Base'
-      ss.vendored_frameworks = 'TPPush-Swift/Classes/ThirdParty/GTSDK.framework'
-      ss.libraries = 'resolv', 'z', 'c++', 'sqlite3'
-      ss.frameworks = 'PushKit', 'AdSupport', 'Security', 'SystemConfiguration', 'UserNotifications'
       ss.pod_target_xcconfig = {
-          'HEADER_SEARCH_PATHS' => '$(PODS_ROOT)/TPPush-Swift/ThirdParty/*.framework/Headers',
-          'LD_RUNPATH_SEARCH_PATHS' => '$(PODS_ROOT)/TPPush-Swift/ThirdParty/',
-          'OTHER_LDFLAGS' => '-ObjC'
+          "SWIFT_INCLUDE_PATHS" => ['$(PODS_ROOT)/TPPush-Swift/Module', '$(PODS_TARGET_SRCROOT)/TPPush-Swift/Module']
       }
+      ss.preserve_paths = ['TPPush-Swift/Module/module.modulemap', 'TPPush-Swift/Module/TPPush_Swift.h']
+      ss.dependency 'GTSDK'
   end
-  s.user_target_xcconfig = { 'CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES' => 'YES' }
+  
+#  s.pod_target_xcconfig = {
+##      'HEADER_SEARCH_PATHS' => '$(PODS_ROOT)/TPPush-Swift/ThirdParty/*.framework/Headers',
+##      'LD_RUNPATH_SEARCH_PATHS' => '$(PODS_ROOT)/TPPush-Swift/ThirdParty/',
+##      'OTHER_LDFLAGS' => '-ObjC',
+#      "SWIFT_INCLUDE_PATHS" => ['$(PODS_ROOT)/TPPush-Swift/Module', '$(PODS_TARGET_SRCROOT)/TPPush-Swift/Module']
+#  }
+#  s.preserve_paths = ['TPPush-Swift/Module/module.modulemap', 'TPPush-Swift/Module/TPPush_Swift.h']
+#  s.user_target_xcconfig = { 'CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES' => 'YES' }
   s.dependency 'TPFoundation-Swift'
+  
 end

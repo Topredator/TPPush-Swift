@@ -18,10 +18,8 @@
   "platforms": {
     "ios": "10.0"
   },
-  "source_files": "TPPush-Swift/Classes/**/*",
-  "user_target_xcconfig": {
-    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES"
-  },
+  "static_framework": true,
+  "source_files": "TPPush-Swift/Classes/Base/*",
   "dependencies": {
     "TPFoundation-Swift": [
 
@@ -29,36 +27,29 @@
   },
   "subspecs": [
     {
-      "name": "Base",
-      "source_files": "TPPush-Swift/Classes/Base/**/*"
+      "name": "Base"
     },
     {
       "name": "GT",
-      "source_files": "TPPush-Swift/Classes/GT/**/*",
+      "source_files": "TPPush-Swift/Classes/GT/*",
       "dependencies": {
         "TPPush-Swift/Base": [
 
+        ],
+        "GTSDK": [
+
         ]
       },
-      "vendored_frameworks": "TPPush-Swift/Classes/ThirdParty/GTSDK.framework",
-      "libraries": [
-        "resolv",
-        "z",
-        "c++",
-        "sqlite3"
-      ],
-      "frameworks": [
-        "PushKit",
-        "AdSupport",
-        "Security",
-        "SystemConfiguration",
-        "UserNotifications"
-      ],
       "pod_target_xcconfig": {
-        "HEADER_SEARCH_PATHS": "$(PODS_ROOT)/TPPush-Swift/ThirdParty/*.framework/Headers",
-        "LD_RUNPATH_SEARCH_PATHS": "$(PODS_ROOT)/TPPush-Swift/ThirdParty/",
-        "OTHER_LDFLAGS": "-ObjC"
-      }
+        "SWIFT_INCLUDE_PATHS": [
+          "$(PODS_ROOT)/TPPush-Swift/Module",
+          "$(PODS_TARGET_SRCROOT)/TPPush-Swift/Module"
+        ]
+      },
+      "preserve_paths": [
+        "TPPush-Swift/Module/module.modulemap",
+        "TPPush-Swift/Module/TPPush_Swift.h"
+      ]
     }
   ]
 }
