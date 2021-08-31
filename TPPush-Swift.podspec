@@ -45,6 +45,9 @@ TODO: Add long description of the pod here.
           'LD_RUNPATH_SEARCH_PATHS' => '$(PODS_ROOT)/TPPush-Swift/ThirdParty/',
           'OTHER_LDFLAGS' => '-ObjC'
       }
+      ss.user_target_xcconfig = {
+          'CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES' => 'YES'
+      }
   end
   
   s.dependency 'TPFoundation-Swift'
